@@ -1,0 +1,19 @@
+svg {
+    border: 1px solid #ccc;
+}
+
+.axis .domain {
+    stroke: none;
+}
+
+.x line {
+    stroke: white;
+}
+
+/* interactive 詳細資訊視窗設定 */
+.tooltip {
+    position: fixed;
+    opacity: 0;
+    pointer-events: none;
+    /* 避免出現連結或其他預設行為 */
+}
